@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+    
+<body>
+
+    <div class="contaner">
+        <!-- date -->
+        <header>Prayer Times in<span></span></header>
+        <div class="date">
+    
+        </div>
+        <!-- date -->
+            <!-- choose city -->
+            <div class="cities" >
+                <label for="city">Choose a city:</label>
+                <select id="city">
+                <option>  </option>
+                </select>
+                <button id="btn">found</button>
+            </div>
+            <!-- choose city -->
+            <!-- Prayer times -->
+        <div class="azan">
+
+            <div class="Prayer fajr">
+                <div >Fajr<hr></div>
+                <div id="fajr" ></div>
+            </div>
+
+            <div class="Prayer sunrise" >
+                <div >Sunrise<hr></div>
+                <div id="sunrise" ></div>
+            </div>
+
+            <div class="Prayer dhohr" >
+                <div >Dhohr<hr></div>
+                <div id="dhohr"> </div>
+            </div>
+
+            <div class="Prayer asr" >
+                <div >Asr<hr></div>
+                <div id="asr" ></div>
+            </div>
+
+            <div class="Prayer maghreb">
+                <div >Maghreb<hr></div>
+                <div id="maghreb" ></div>
+            </div>
+
+            <div  class="Prayer isha">
+                <div >Isha<hr></div>
+                <div  id="isha"></div>
+            </div>
+
+        </div>
+            <!-- Prayer times -->
+        </div>
+    
+        <script src="main.js"></script>
+    </body>
+</html>
